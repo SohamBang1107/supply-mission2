@@ -29,7 +29,7 @@ function setup() {
 	groundSprite.shapeColor=color(255)
 
 	var packageSprite_options ={
-		restitution: 1.0
+		restitution: 0.5
 	}
 
 	engine = Engine.create();
